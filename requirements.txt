@@ -1,9 +1,17 @@
-# FastMCP 2.0 requirements
-fastmcp>=2.0.0
-pydantic>=2.0.0
-httpx>=0.24.0
-uvicorn>=0.23.0
-starlette>=0.27.0
-python-dotenv>=1.0.0
+# FastMCP 2.0 Simple Requirements (no SSL/advanced features)
+fastmcp
+pydantic
+httpx
+uvicorn
+starlette
 
-
+# Your existing dependencies (from the agentic workflow)
+python-dotenv
+langchain
+langchain-google-genai
+langchain-tavily
+langchain-huggingface
+langchain-community
+langgraph
+chromadb
+sentence-transformers
